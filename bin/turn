@@ -1,7 +1,12 @@
 #!/usr/bin/env ruby
 require_relative '../lib/turn.rb'
+
 turns = 0
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+puts "Welcome to Tic Tac Toe!"
+display_board(board)
+
 def turn (turns, board)
   while turns < 1 do
     puts "Please enter 1-9:"
