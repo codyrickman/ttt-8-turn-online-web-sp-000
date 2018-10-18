@@ -13,8 +13,6 @@ def turn (turns, board)
     if valid_move?(board, index) == true
       move(board, index)
       turns += 1
-    else
-      return
     end
   end
 end
